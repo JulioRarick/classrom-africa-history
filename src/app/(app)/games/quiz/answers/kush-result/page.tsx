@@ -70,7 +70,7 @@ export default function KushResult() {
               diferenças nas casas e roupas das pessoas?
             </span>
             <span className="text-green-600">
-              Resposta correta: Que existiam diferentes classNamees sociais, com
+              Resposta correta: Que existiam diferentes classes sociais, com
               diferentes níveis de riqueza e poder.
             </span>
           </li>
