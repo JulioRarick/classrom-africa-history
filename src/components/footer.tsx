@@ -20,7 +20,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/department"
+                  href="http://his.unb.br/"
                   target="_blank"
                   className="text-sm text-stone-700 hover:text-black hover:underline hover:underline-offset-2"
                 >

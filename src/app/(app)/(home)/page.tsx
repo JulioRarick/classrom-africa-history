@@ -1,8 +1,12 @@
+'use client'
+
 import Link from 'next/link'
+
+import { AnimatedDiv } from '@/components/animated-div'
 
 export default function Home() {
   return (
-    <section className="flex h-full w-full flex-col items-center justify-center gap-6">
+    <AnimatedDiv className="flex h-full w-full flex-col items-center justify-center gap-6">
       <h2 className="text-3xl font-extrabold tracking-tighter text-foreground lg:text-6xl">
         Partiu jogar?
       </h2>
@@ -14,6 +18,6 @@ export default function Home() {
           Clique aqui
         </p>
       </Link>
-    </section>
+    </AnimatedDiv>
   )
 }

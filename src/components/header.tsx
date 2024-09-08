@@ -17,11 +17,6 @@ export function Header() {
         </Link>
         <nav>
           <ul className="flex items-center justify-center gap-4 text-sm">
-            <NavbarItem
-              url="/classroom"
-              title="Plano de aula"
-              className="hidden lg:block"
-            />
             <NavbarItem url="/about" title="Sobre" />
             <li>
               <Button variant="default" asChild>
